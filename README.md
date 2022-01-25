@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To run the app locally:
 ### `npm start`
 
-App deployed at https://jonvfvn.github.io/pokedex
+App deployed at [jonvfvn.github.io/pokedex](https://jonvfvn.github.io/pokedex)
 
 ## Note! 📣 
-You may encounter the CORS error when the app attempts to fetch the json data. To resulve this enable CORS anywhere in your browser here: https://cors-anywhere.herokuapp.com/corsdemo
+You may encounter the CORS error when the app attempts to fetch the json data. To resulve this enable [CORS anywhere](https://cors-anywhere.herokuapp.com/corsdemo) in your browser.
