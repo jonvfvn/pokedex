@@ -7,3 +7,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `npm start`
 ### `npm run build`
 
+App deployed at https://jonvfvn.github.io/pokedex

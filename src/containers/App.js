@@ -53,7 +53,7 @@ function App() {
 		(
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={
+				<Route path="/pokedex" element={
 					<div>
 						<div className='tc'>
 							<h1 className='title'>Pokédex</h1>
