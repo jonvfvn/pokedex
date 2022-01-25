@@ -14,3 +14,6 @@ To run the app locally:
 ### `npm start`
 
 App deployed at https://jonvfvn.github.io/pokedex
+
+## Note! 📣 
+You may encounter the CORS error when the app attempts to fetch the json data. To resulve this enable CORS anywhere in your browser here: https://cors-anywhere.herokuapp.com/corsdemo
