@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'Pokemon';
+  	font-style: normal;
+  	font-weight: normal;
+  	src: local('Pokemon'), url('pokemon.woff') format('woff');
+}
+
+.title {
+	font-family: 'Pokemon';
+  	font-weight: 500;
+  	font-size: 5rem;
+  	margin-bottom: 1rem;
+  	color: #FFDE00;
+  	text-shadow: -2px -2px 0 #B3A125, 
+    	2px -2px 0 #B3A125, 
+    	-2px 2px 0 #3B4CCA, 
+    	2px 2px 0 #3B4CCA;
+}
+
+.card-container {
+	display: flex;
+	width: 100%;
+}
+.card-inner {
+	color: #fff;
+}
+
+.card-inner-left{
+	display: flex;
+	color: #000;
+	width: 50%;
+	margin-left: 10%;
+}
+
+.card-inner-right {
+	background: linear-gradient(to right, #FF0000, #CC0000);
+	display: flex;
+	width: 30%;
+	height: 50%;
+}
+.card-inner-info {
+	width: 40%;
+}
+
+.card-inner h3 {
+	color: #000;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	margin-top: -5px;
+}
+
+.card-inner h4 {
+	font-weight: bold;
+	margin-bottom: -12px;
+	margin-top: -1px;
+}
+
+h1, h2, a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.card-text {
+	color: #000;
+	font-weight: 400;
+}
+
+input {
+	width: 350px;
+}
+
+table {
+	border-collapse: collapse;
+  	margin: 10px 0;
+  	font-size: 0.9em;
+  	font-family: sans-serif;
+  	min-width: 400px;
+  	width: 75%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+thead tr {
+  	background: linear-gradient(to right, #FF0000, #CC0000);
+  	color: #ffffff;
+  	text-align: left;
+}
+
+th, td {
+  	padding: 1.5rem;
+  	font-size: 1em;
+  	min-width: 100px;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+tbody tr:nth-of-type(odd) {
+  	background-color: #dddddd;
+}
+
+tbody tr:last-of-type {
+  	border-bottom: none;
+}
+
+tbody tr:hover, tbody tr:focus {
+	background-color: #a0a0a0;
+  	cursor: pointer;
+}
+
+table tr:first-child th:first-child {
+  	border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+  	border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+  	border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  	border-bottom-right-radius: 10px;
+} 
+
+
+/* Adjusting for smaller displays */
+@media only screen and (max-width: 800px) {
+	table { width: 100%; margin-left: auto; margin-right: auto; }
+	table tr:first-child th:first-child { border-top-left-radius: 0; }
+	table tr:first-child th:last-child { border-top-right-radius: 0; }
+	table tr:last-child td:first-child { border-bottom-left-radius: 0; }
+	table tr:last-child td:last-child { border-bottom-right-radius: 0; }
+}
